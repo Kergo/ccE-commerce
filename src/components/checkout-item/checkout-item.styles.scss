@@ -24,6 +24,20 @@
   }
 
   .quantity {
-    padding-left: 2rem;
+    display: flex;
+
+    .arrow {
+      cursor: pointer;
+    }
+
+    .value {
+      margin: 0 1rem;
+    }
+  }
+
+  .remove-button {
+    margin-left: 1.2rem;
+    // padding-left: 1.2rem;
+    cursor: pointer;
   }
 }
